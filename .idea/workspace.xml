@@ -5,23 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99d48cbc-63c4-4cc7-b879-85f5858a3832" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/view_updaterelasi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/mvc_mahasiswa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mvc_mahasiswa.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller_mahasiswa.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller_mahasiswa.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller_matakuliah.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller_matakuliah.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller_relasi.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller_relasi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edit_mahasiswa.php" beforeDir="false" afterPath="$PROJECT_DIR$/view_updatemahasiswa.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edit_matakuliah.php" beforeDir="false" afterPath="$PROJECT_DIR$/view_updatematakuliah.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model.php" beforeDir="false" afterPath="$PROJECT_DIR$/model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view_addrelasi.php" beforeDir="false" afterPath="$PROJECT_DIR$/view_addrelasi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view_mahasiswa.php" beforeDir="false" afterPath="$PROJECT_DIR$/view_mahasiswa.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view_matakuliah.php" beforeDir="false" afterPath="$PROJECT_DIR$/view_matakuliah.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view_relasi.php" beforeDir="false" afterPath="$PROJECT_DIR$/view_relasi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller_mahasiswa.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/controller_mahasiswa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller_matakuliah.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/controller_matakuliah.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller_relasi.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/controller_relasi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view_addmahasiswa.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_addmahasiswa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view_addmatakuliah.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_addmatakuliah.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view_addrelasi.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_addrelasi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view_mahasiswa.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_mahasiswa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view_matakuliah.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_matakuliah.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view_relasi.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_relasi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view_updatemahasiswa.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_updatemahasiswa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view_updatematakuliah.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_updatematakuliah.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view_updaterelasi.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_updaterelasi.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,61 +48,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0000000000002354" />
-      <entry key="S30" value="1.0001010266226202" />
-      <entry key="S60" value="1.016199535131333" />
-      <entry key="M2" value="1.2159399959125494" />
-      <entry key="M5" value="2.237015342864977" />
-      <entry key="M10" value="4.200870893796523" />
-      <entry key="M15" value="5.921085334877112" />
-      <entry key="M30" value="9.184903032241941" />
-      <entry key="H1" value="13.816230599430062" />
-      <entry key="H2" value="24.18527265507635" />
-      <entry key="H4" value="38.99136009340665" />
-      <entry key="D1" value="64.47274180294339" />
-      <entry key="W1" value="70.8604304702758" />
+      <entry key="MS100" value="1.572821549217558" />
+      <entry key="MS500" value="4.69512564533688" />
+      <entry key="S2" value="6.91957280915997" />
+      <entry key="S5" value="7.541792254663505" />
+      <entry key="S10" value="7.76629588002408" />
+      <entry key="S30" value="7.921050847070251" />
+      <entry key="S60" value="7.9603928222464" />
+      <entry key="M2" value="7.980163137303019" />
+      <entry key="M5" value="7.99205725482715" />
+      <entry key="M10" value="7.996135599575045" />
+      <entry key="M15" value="8.002518745024092" />
+      <entry key="M30" value="8.27001604401535" />
+      <entry key="H1" value="10.374042645505593" />
+      <entry key="H2" value="18.0264383064395" />
+      <entry key="H4" value="33.105596305612536" />
+      <entry key="D1" value="67.91148850055312" />
+      <entry key="W1" value="78.12154888617064" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="6.46683E-319" />
-      <entry key="S2" value="2.835783888863481E-80" />
-      <entry key="S5" value="1.5172922946210234E-32" />
-      <entry key="S10" value="1.2317841915778197E-16" />
-      <entry key="S30" value="4.975593312003066E-6" />
-      <entry key="S60" value="0.0022306037998719233" />
-      <entry key="M2" value="0.047229268466406744" />
-      <entry key="M5" value="0.2949065968640669" />
-      <entry key="M10" value="0.5430530331966361" />
-      <entry key="M15" value="0.6656227583287627" />
-      <entry key="M30" value="0.8158570697914941" />
-      <entry key="H1" value="0.9032480665860814" />
-      <entry key="H2" value="0.9503936377028631" />
-      <entry key="H4" value="0.9748813454481846" />
-      <entry key="D1" value="0.9957690570377247" />
-      <entry key="W1" value="0.9993944807254492" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="5.885250025242207E-292" />
+      <entry key="S30" value="8.380211367184052E-98" />
+      <entry key="S60" value="2.8948594727868975E-49" />
+      <entry key="M2" value="5.380389830474087E-25" />
+      <entry key="M5" value="1.9603133487937442E-10" />
+      <entry key="M10" value="1.4001119058110113E-5" />
+      <entry key="M15" value="5.809095270810825E-4" />
+      <entry key="M30" value="0.024102064788749582" />
+      <entry key="H1" value="0.1552483970569409" />
+      <entry key="H2" value="0.39401573199168183" />
+      <entry key="H4" value="0.6277067245072985" />
+      <entry key="D1" value="0.9253218061202045" />
+      <entry key="W1" value="0.9889735697593652" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="7.3498376338431E-4" />
-      <entry key="MS500" value="0.23618676024930152" />
-      <entry key="S2" value="0.697130184392181" />
-      <entry key="S5" value="0.8656165572662893" />
-      <entry key="S10" value="0.9303851660826464" />
-      <entry key="S30" value="0.9763339445913913" />
-      <entry key="S60" value="1.0059268780843493" />
-      <entry key="M2" value="1.253437553653154" />
-      <entry key="M5" value="2.5220579748046315" />
-      <entry key="M10" value="4.7360055845400195" />
-      <entry key="M15" value="6.580292123941237" />
-      <entry key="M30" value="9.996714827449608" />
-      <entry key="H1" value="14.71712075317934" />
-      <entry key="H2" value="25.13432301617834" />
-      <entry key="H4" value="39.96549081035053" />
-      <entry key="D1" value="65.46836696400449" />
-      <entry key="W1" value="71.8598037693742" />
+      <entry key="MS100" value="1.5336643466501354" />
+      <entry key="MS500" value="4.6738150202583295" />
+      <entry key="S2" value="6.911775086344386" />
+      <entry key="S5" value="7.538394059526902" />
+      <entry key="S10" value="7.764546307046343" />
+      <entry key="S30" value="7.9204560461118785" />
+      <entry key="S60" value="7.960093945249829" />
+      <entry key="M2" value="7.980013327753292" />
+      <entry key="M5" value="7.991997241897226" />
+      <entry key="M10" value="7.996119375077971" />
+      <entry key="M15" value="8.003074037514184" />
+      <entry key="M30" value="8.293988592758389" />
+      <entry key="H1" value="10.52888076376492" />
+      <entry key="H2" value="18.41989463771678" />
+      <entry key="H4" value="33.73281846385333" />
+      <entry key="D1" value="68.83667638225907" />
+      <entry key="W1" value="79.11050146537058" />
     </decayedShown>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
@@ -143,6 +140,9 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\mvc_mahasiswa\view" />
+      <recent name="C:\xampp\htdocs\mvc_mahasiswa\model" />
+      <recent name="C:\xampp\htdocs\mvc_mahasiswa\controller" />
       <recent name="C:\xampp\htdocs\mvc_mahasiswa" />
     </key>
   </component>
@@ -160,7 +160,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1789880309987</updated>
-      <workItem from="1789880311173" duration="16935000" />
+      <workItem from="1789880311173" duration="17300000" />
     </task>
     <servers />
   </component>
