@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="99d48cbc-63c4-4cc7-b879-85f5858a3832" name="Changes" comment="" />
+    <list default="true" id="99d48cbc-63c4-4cc7-b879-85f5858a3832" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +20,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="McpProjectServerCommands">
     <commands />
@@ -22,23 +28,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.1876796584966198" />
-      <entry key="MS500" value="3.6750271475182688" />
-      <entry key="S2" value="8.015548436717213" />
-      <entry key="S5" value="14.443569195942969" />
-      <entry key="S10" value="21.65754343008293" />
-      <entry key="S30" value="33.087078641844975" />
-      <entry key="S60" value="38.92198243196294" />
-      <entry key="M2" value="43.44966616852073" />
-      <entry key="M5" value="47.66563531480339" />
-      <entry key="M10" value="49.60954055174311" />
-      <entry key="M15" value="50.349223245080935" />
-      <entry key="M30" value="51.14386138122698" />
-      <entry key="H1" value="51.56380168265254" />
-      <entry key="H2" value="51.779810372757666" />
-      <entry key="H4" value="51.889375093284606" />
-      <entry key="D1" value="51.98148824749798" />
-      <entry key="W1" value="51.99735363665654" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.000000427521408" />
+      <entry key="S5" value="1.0028338910309262" />
+      <entry key="S10" value="1.0532343031411713" />
+      <entry key="S30" value="1.3761812897577899" />
+      <entry key="S60" value="1.6133361963538349" />
+      <entry key="M2" value="1.7831578361709701" />
+      <entry key="M5" value="1.9070489865104063" />
+      <entry key="M10" value="2.0513607275611285" />
+      <entry key="M15" value="2.766375562999552" />
+      <entry key="M30" value="8.424316672595053" />
+      <entry key="H1" value="20.290039331831338" />
+      <entry key="H2" value="32.84142117058127" />
+      <entry key="H4" value="42.04718183616127" />
+      <entry key="D1" value="51.784981028005845" />
+      <entry key="W1" value="53.6776353617378" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -60,23 +66,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.159377279893766" />
-      <entry key="MS500" value="3.633161330110701" />
-      <entry key="S2" value="7.9914025907134985" />
-      <entry key="S5" value="14.426387979379825" />
-      <entry key="S10" value="21.64418116354981" />
-      <entry key="S30" value="33.079883429060544" />
-      <entry key="S60" value="38.91665600705683" />
-      <entry key="M2" value="43.444637369874805" />
-      <entry key="M5" value="47.66186025078347" />
-      <entry key="M10" value="49.60712560733085" />
-      <entry key="M15" value="50.347469561077105" />
-      <entry key="M30" value="51.142904790646035" />
-      <entry key="H1" value="51.56330183486874" />
-      <entry key="H2" value="51.77955484598677" />
-      <entry key="H4" value="51.889245901491485" />
-      <entry key="D1" value="51.981466514752206" />
-      <entry key="W1" value="51.99735052703007" />
+      <entry key="MS100" value="0.02895587693407408" />
+      <entry key="MS500" value="0.4924332214477753" />
+      <entry key="S2" value="0.8376970207762496" />
+      <entry key="S5" value="0.9339339417536817" />
+      <entry key="S10" value="1.013394208272851" />
+      <entry key="S30" value="1.3521761132279713" />
+      <entry key="S60" value="1.597366352171706" />
+      <entry key="M2" value="1.773745860491097" />
+      <entry key="M5" value="1.9028672468008117" />
+      <entry key="M10" value="2.049188369879536" />
+      <entry key="M15" value="2.7648851199427074" />
+      <entry key="M30" value="8.423455942203486" />
+      <entry key="H1" value="20.289489553764046" />
+      <entry key="H2" value="32.841082182093196" />
+      <entry key="H4" value="42.046988595546395" />
+      <entry key="D1" value="51.78494460557314" />
+      <entry key="W1" value="53.677630041044765" />
     </decayedShown>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
@@ -91,6 +97,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -125,7 +132,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1789880309987</updated>
-      <workItem from="1789880311173" duration="372000" />
+      <workItem from="1789880311173" duration="4089000" />
     </task>
     <servers />
   </component>

@@ -1,14 +1,15 @@
 <?php
-class Mahasiswa
-{
+
+class model_mahasiswa{
     public $nama;
     public $nim;
     public $jurusan;
 }
 
-class MataKuliah
-{
+class model_matakuliah{
     public $nama_mk;
     public $kode;
     public $sks;
 }
+
+?>
