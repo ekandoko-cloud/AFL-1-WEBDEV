@@ -1,5 +1,4 @@
 <?php
-
 class model_mahasiswa{
     public $nama;
     public $nim;
@@ -11,5 +10,4 @@ class model_matakuliah{
     public $kode;
     public $sks;
 }
-
 ?>

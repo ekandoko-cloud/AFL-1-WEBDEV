@@ -14,11 +14,10 @@ $allmatakuliah = getAllMataKuliahs();
 </head>
 <body>
 <div class="container p-3">
-    <h1>Mahasiswa &amp; Mata Kuliah</h1>
+    <h1>Mahasiswa & Mata Kuliah</h1>
     <div class="card">
         <div class="card-body">
             <h3>Tambah Relasi (Mahasiswa Ambil Mata Kuliah)</h3>
-
             <?php if (count($allmahasiswas) == 0 || count($allmatakuliah) == 0): ?>
                 <div class="alert alert-warning">
                     Tambahkan data <strong>Mahasiswa</strong> dan <strong>Mata Kuliah</strong> terlebih dahulu sebelum membuat relasi.

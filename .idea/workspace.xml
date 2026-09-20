@@ -5,7 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99d48cbc-63c4-4cc7-b879-85f5858a3832" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/view_updaterelasi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mvc_mahasiswa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mvc_mahasiswa.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller_mahasiswa.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller_mahasiswa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller_matakuliah.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller_matakuliah.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller_relasi.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller_relasi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edit_mahasiswa.php" beforeDir="false" afterPath="$PROJECT_DIR$/view_updatemahasiswa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edit_matakuliah.php" beforeDir="false" afterPath="$PROJECT_DIR$/view_updatematakuliah.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model.php" beforeDir="false" afterPath="$PROJECT_DIR$/model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view_addrelasi.php" beforeDir="false" afterPath="$PROJECT_DIR$/view_addrelasi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view_mahasiswa.php" beforeDir="false" afterPath="$PROJECT_DIR$/view_mahasiswa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view_matakuliah.php" beforeDir="false" afterPath="$PROJECT_DIR$/view_matakuliah.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view_relasi.php" beforeDir="false" afterPath="$PROJECT_DIR$/view_relasi.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +33,13 @@
   </component>
   <component name="EmbeddingIndexingInfo">
     <option name="cachedIndexableFilesCount" value="18" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="PHP File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,94 +53,99 @@
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.000000427521408" />
-      <entry key="S5" value="1.0028338910309262" />
-      <entry key="S10" value="1.0532343031411713" />
-      <entry key="S30" value="1.3761812897577899" />
-      <entry key="S60" value="1.6133361963538349" />
-      <entry key="M2" value="1.7831578361709701" />
-      <entry key="M5" value="1.9070489865104063" />
-      <entry key="M10" value="2.0513607275611285" />
-      <entry key="M15" value="2.766375562999552" />
-      <entry key="M30" value="8.424316672595053" />
-      <entry key="H1" value="20.290039331831338" />
-      <entry key="H2" value="32.84142117058127" />
-      <entry key="H4" value="42.04718183616127" />
-      <entry key="D1" value="51.784981028005845" />
-      <entry key="W1" value="53.6776353617378" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0000000000002354" />
+      <entry key="S30" value="1.0001010266226202" />
+      <entry key="S60" value="1.016199535131333" />
+      <entry key="M2" value="1.2159399959125494" />
+      <entry key="M5" value="2.237015342864977" />
+      <entry key="M10" value="4.200870893796523" />
+      <entry key="M15" value="5.921085334877112" />
+      <entry key="M30" value="9.184903032241941" />
+      <entry key="H1" value="13.816230599430062" />
+      <entry key="H2" value="24.18527265507635" />
+      <entry key="H4" value="38.99136009340665" />
+      <entry key="D1" value="64.47274180294339" />
+      <entry key="W1" value="70.8604304702758" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="0.0" />
-      <entry key="S60" value="0.0" />
-      <entry key="M2" value="0.0" />
-      <entry key="M5" value="0.0" />
-      <entry key="M10" value="0.0" />
-      <entry key="M15" value="0.0" />
-      <entry key="M30" value="0.0" />
-      <entry key="H1" value="0.0" />
-      <entry key="H2" value="0.0" />
-      <entry key="H4" value="0.0" />
-      <entry key="D1" value="0.0" />
-      <entry key="W1" value="0.0" />
+      <entry key="MS500" value="6.46683E-319" />
+      <entry key="S2" value="2.835783888863481E-80" />
+      <entry key="S5" value="1.5172922946210234E-32" />
+      <entry key="S10" value="1.2317841915778197E-16" />
+      <entry key="S30" value="4.975593312003066E-6" />
+      <entry key="S60" value="0.0022306037998719233" />
+      <entry key="M2" value="0.047229268466406744" />
+      <entry key="M5" value="0.2949065968640669" />
+      <entry key="M10" value="0.5430530331966361" />
+      <entry key="M15" value="0.6656227583287627" />
+      <entry key="M30" value="0.8158570697914941" />
+      <entry key="H1" value="0.9032480665860814" />
+      <entry key="H2" value="0.9503936377028631" />
+      <entry key="H4" value="0.9748813454481846" />
+      <entry key="D1" value="0.9957690570377247" />
+      <entry key="W1" value="0.9993944807254492" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.02895587693407408" />
-      <entry key="MS500" value="0.4924332214477753" />
-      <entry key="S2" value="0.8376970207762496" />
-      <entry key="S5" value="0.9339339417536817" />
-      <entry key="S10" value="1.013394208272851" />
-      <entry key="S30" value="1.3521761132279713" />
-      <entry key="S60" value="1.597366352171706" />
-      <entry key="M2" value="1.773745860491097" />
-      <entry key="M5" value="1.9028672468008117" />
-      <entry key="M10" value="2.049188369879536" />
-      <entry key="M15" value="2.7648851199427074" />
-      <entry key="M30" value="8.423455942203486" />
-      <entry key="H1" value="20.289489553764046" />
-      <entry key="H2" value="32.841082182093196" />
-      <entry key="H4" value="42.046988595546395" />
-      <entry key="D1" value="51.78494460557314" />
-      <entry key="W1" value="53.677630041044765" />
+      <entry key="MS100" value="7.3498376338431E-4" />
+      <entry key="MS500" value="0.23618676024930152" />
+      <entry key="S2" value="0.697130184392181" />
+      <entry key="S5" value="0.8656165572662893" />
+      <entry key="S10" value="0.9303851660826464" />
+      <entry key="S30" value="0.9763339445913913" />
+      <entry key="S60" value="1.0059268780843493" />
+      <entry key="M2" value="1.253437553653154" />
+      <entry key="M5" value="2.5220579748046315" />
+      <entry key="M10" value="4.7360055845400195" />
+      <entry key="M15" value="6.580292123941237" />
+      <entry key="M30" value="9.996714827449608" />
+      <entry key="H1" value="14.71712075317934" />
+      <entry key="H2" value="25.13432301617834" />
+      <entry key="H4" value="39.96549081035053" />
+      <entry key="D1" value="65.46836696400449" />
+      <entry key="W1" value="71.8598037693742" />
     </decayedShown>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3JZtEwCr7kQ5WH77laKQmBZdY8N" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/xampp/htdocs/mvc_mahasiswa",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/mvc_mahasiswa&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\mvc_mahasiswa" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -132,7 +160,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1789880309987</updated>
-      <workItem from="1789880311173" duration="4089000" />
+      <workItem from="1789880311173" duration="16935000" />
     </task>
     <servers />
   </component>

@@ -1,11 +1,10 @@
 <?php
 
-include("model.php");
+include_once("model.php");
 if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
 
-// buat session matakuliahlist jika belum ada
 if (!isset($_SESSION['matakuliahlist'])) {
     $_SESSION['matakuliahlist'] = array();
 }
@@ -31,25 +30,25 @@ function updateMataKuliah($index){
 }
 
 function deleteMataKuliah($index){
-    unset($_SESSION['matakuliahlist'][$index]); // array index
+    unset($_SESSION['matakuliahlist'][$index]);
 }
 
-// jika button_tambah di klik
+
 if (isset($_POST['button_tambah_matakuliah'])) {
     createMataKuliah();
-    header("Location:view_matakuliah.php"); // kembali ke halaman lain
+    header("Location:view_matakuliah.php");
 }
 
-// jika button_update di klik
+
 if (isset($_POST['button_update_matakuliah'])) {
     updateMataKuliah($_POST['editID']);
-    header("Location:view_matakuliah.php"); // kembali ke halaman lain
+    header("Location:view_matakuliah.php");
 }
 
-// jika button delete di klik
+
 if (isset($_GET['deleteID'])) {
     deleteMataKuliah($_GET['deleteID']);
-    header("Location:view_matakuliah.php"); // kembali ke halaman lain
+    header("Location:view_matakuliah.php");
 }
 
 ?>

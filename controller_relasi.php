@@ -1,10 +1,9 @@
 <?php
-include("model.php");
+include_once("model.php");
 if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
 
-// buat session relasilist jika belum ada
 if (!isset($_SESSION['relasilist'])) {
     $_SESSION['relasilist'] = array();
 }
@@ -17,24 +16,35 @@ function createRelasi(){
     array_push($_SESSION['relasilist'], $relasi);
 }
 
-function getAllRelasis(){
+function getAllRelasi(){
     return $_SESSION['relasilist'];
 }
 
 function deleteRelasi($index){
-    unset($_SESSION['relasilist'][$index]); // array index
+    unset($_SESSION['relasilist'][$index]);
 }
 
-// jika button_tambah di klik
+function updateRelasi($index){
+    $relasi = array(
+        "mahasiswaIndex"  => $_POST['inputMahasiswa'],
+        "matakuliahIndex" => $_POST['inputMatakuliah'],
+    );
+    $_SESSION['relasilist'][$index] = $relasi;
+}
+
 if (isset($_POST['button_tambah_relasi'])) {
     createRelasi();
-    header("Location:view_relasi.php"); // kembali ke halaman lain
+    header("Location:view_relasi.php");
 }
 
-// jika button delete di klik
+if (isset($_POST['button_update_relasi'])) {
+    updateRelasi($_POST['editID']);
+    header("Location:view_relasi.php");
+}
+
 if (isset($_GET['deleteRelasiID'])) {
     deleteRelasi($_GET['deleteRelasiID']);
-    header("Location:view_relasi.php"); // kembali ke halaman lain
+    header("Location:view_relasi.php");
 }
 
 ?>

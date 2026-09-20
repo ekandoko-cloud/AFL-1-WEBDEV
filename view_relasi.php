@@ -12,7 +12,7 @@ include_once("controller_relasi.php");
 </head>
 <body>
 <div class="container p-3">
-    <h1>Mahasiswa &amp; Mata Kuliah</h1>
+    <h1>Mahasiswa & Mata Kuliah</h1>
     <ul class="nav nav-tabs mb-4">
         <li class="nav-item">
             <a class="nav-link" href="view_mahasiswa.php">Mahasiswa</a>
@@ -24,7 +24,6 @@ include_once("controller_relasi.php");
             <a class="nav-link" href="view_relasi.php">Mahasiswa - Mata Kuliah</a>
         </li>
     </ul>
-
 
     <div class="card text-center">
         <div class="card-body">
@@ -43,21 +42,24 @@ include_once("controller_relasi.php");
                 $counter = 0;
                 $allmahasiswas = getAllMahasiswas();
                 $allmatakuliah = getAllMataKuliahs();
-                $allrelasi = getAllRelasis();
+                $allrelasi = getAllRelasi();
                 foreach ($allrelasi as $index => $relasi) {
                     $counter++;
                     $mhsIndex = $relasi['mahasiswaIndex'];
-                    $mkIndex  = $relasi['matakuliahIndex'];
+                    $mkIndex = $relasi['matakuliahIndex'];
 
                     $namaMhs = isset($allmahasiswas[$mhsIndex]) ? $allmahasiswas[$mhsIndex]->nama : "(data sudah dihapus)";
-                    $namaMk  = isset($allmatakuliah[$mkIndex]) ? $allmatakuliah[$mkIndex]->nama_mk : "(data sudah dihapus)";
+                    $namaMk = isset($allmatakuliah[$mkIndex]) ? $allmatakuliah[$mkIndex]->nama_mk : "(data sudah dihapus)";
                     ?>
                     <tr>
-                        <th scope="row"><?=$counter?></th>
-                        <td><?=htmlspecialchars($namaMhs)?></td>
-                        <td><?=htmlspecialchars($namaMk)?></td>
+                        <th scope="row"><?= $counter ?></th>
+                        <td><?= htmlspecialchars($namaMhs) ?></td>
+                        <td><?= htmlspecialchars($namaMk) ?></td>
                         <td>
-                            <a href="controller_relasi.php?deleteRelasiID=<?=$index?>">
+                            <a href="view_updaterelasi.php?editID=<?= $index ?>">
+                                <button class="btn btn-warning">Update</button>
+                            </a>
+                            <a href="controller_relasi.php?deleteRelasiID=<?= $index ?>">
                                 <button class="btn btn-danger">Delete</button>
                             </a>
                         </td>

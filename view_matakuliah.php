@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="container p-3">
-        <h1>Mahasiswa &amp; Mata Kuliah</h1>
+        <h1>Mahasiswa & Mata Kuliah</h1>
         <ul class="nav nav-tabs mb-4">
             <li class="nav-item">
                 <a class="nav-link" href="view_mahasiswa.php">Mahasiswa</a>
@@ -21,49 +21,48 @@
             </li>
         </ul>
 
-
-        <div class="card text-center">
-            <div class="card-body">
-                <h3>Daftar Mata Kuliah</h3>
-                <table class="table table-bordered">
-                    <thead>
-                        <tr>
-                            <th scope="col">No</th>
-                            <th scope="col">Nama Mata Kuliah</th>
-                            <th scope="col">Kode</th>
-                            <th scope="col">SKS</th>
-                            <th scope="col">Action</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <?php
-                        $counter = 0;
-                        $allmatakuliah = getAllMataKuliahs();
-                        foreach ($allmatakuliah as $index => $mk) {
-                            $counter++;
-                        ?>
-                        <tr>
-                            <th scope="row"><?=$counter?></th>
-                            <td><?=htmlspecialchars($mk->nama_mk)?></td>
-                            <td><?=htmlspecialchars($mk->kode)?></td>
-                            <td><?=htmlspecialchars($mk->sks)?></td>
-                            <td>
-                                <a href="edit_matakuliah.php?editID=<?=$index?>">
-                                    <button class="btn btn-warning">Update</button>
-                                </a>
-                                <a href="controller_matakuliah.php?deleteID=<?=$index?>">
-                                    <button class="btn btn-danger">Delete</button>
-                                </a>
-                            </td>
-                        </tr>
-                        <?php
-                        }
-                        ?>
-                    </tbody>
-                </table>
-                <a href="view_addmatakuliah.php" class="btn btn-primary">Tambah Mata Kuliah</a>
-            </div>
+    <div class="card text-center">
+        <div class="card-body">
+            <h3>Daftar Mata Kuliah</h3>
+            <table class="table table-bordered">
+                <thead>
+                <tr>
+                    <th scope="col">No</th>
+                    <th scope="col">Nama Mata Kuliah</th>
+                    <th scope="col">Kode</th>
+                    <th scope="col">SKS</th>
+                    <th scope="col">Action</th>
+                </tr>
+                </thead>
+                <tbody>
+                <?php
+                $counter = 0;
+                $allmatakuliah = getAllMataKuliahs();
+                foreach ($allmatakuliah as $index => $mk) {
+                    $counter++;
+                    ?>
+                    <tr>
+                        <th scope="row"><?=$counter?></th>
+                        <td><?=htmlspecialchars($mk->nama_mk)?></td>
+                        <td><?=htmlspecialchars($mk->kode)?></td>
+                        <td><?=htmlspecialchars($mk->sks)?></td>
+                        <td>
+                            <a href="view_updatematakuliah.php?editID=<?=$index?>">
+                                <button class="btn btn-warning">Update</button>
+                            </a>
+                            <a href="controller_matakuliah.php?deleteID=<?=$index?>">
+                                <button class="btn btn-danger">Delete</button>
+                            </a>
+                        </td>
+                    </tr>
+                    <?php
+                }
+                ?>
+                </tbody>
+            </table>
+            <a href="view_addmatakuliah.php" class="btn btn-primary">Tambah Mata Kuliah</a>
         </div>
     </div>
+</div>
 </body>
 </html>

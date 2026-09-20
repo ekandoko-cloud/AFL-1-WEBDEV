@@ -1,10 +1,9 @@
 <?php
-include("model.php");
+include_once("model.php");
 if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
 
-// buat session mahasiswalist jika belum ada
 if (!isset($_SESSION['mahasiswalist'])) {
     $_SESSION['mahasiswalist'] = array();
 }
@@ -30,25 +29,22 @@ function updateMahasiswa($index){
 }
 
 function deleteMahasiswa($index){
-    unset($_SESSION['mahasiswalist'][$index]); // array index
+    unset($_SESSION['mahasiswalist'][$index]);
 }
 
-// jika button_tambah di klik
 if (isset($_POST['button_tambah_mahasiswa'])) {
     createMahasiswa();
-    header("Location:view_mahasiswa.php"); // kembali ke halaman lain
+    header("Location:view_mahasiswa.php");
 }
 
-// jika button_update di klik
 if (isset($_POST['button_update_mahasiswa'])) {
     updateMahasiswa($_POST['editID']);
-    header("Location:view_mahasiswa.php"); // kembali ke halaman lain
+    header("Location:view_mahasiswa.php");
 }
 
-// jika button delete di klik
 if (isset($_GET['deleteID'])) {
     deleteMahasiswa($_GET['deleteID']);
-    header("Location:view_mahasiswa.php"); // kembali ke halaman lain
+    header("Location:view_mahasiswa.php");
 }
 
 ?>
