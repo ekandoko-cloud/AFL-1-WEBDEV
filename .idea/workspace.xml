@@ -5,20 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99d48cbc-63c4-4cc7-b879-85f5858a3832" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/controller_mahasiswa.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/controller_mahasiswa.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller_matakuliah.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/controller_matakuliah.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller_relasi.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/controller_relasi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view_addmahasiswa.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_addmahasiswa.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view_addmatakuliah.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_addmatakuliah.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view_addrelasi.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_addrelasi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view_mahasiswa.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_mahasiswa.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view_matakuliah.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_matakuliah.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view_relasi.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_relasi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view_updatemahasiswa.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_updatemahasiswa.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view_updatematakuliah.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_updatematakuliah.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view_updaterelasi.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_updaterelasi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/controller_mahasiswa.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/controller_mahasiswa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/controller_matakuliah.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/controller_matakuliah.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/controller_relasi.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/controller_relasi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/view_addmahasiswa.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_addmahasiswa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/view_addmatakuliah.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_addmatakuliah.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/view_addrelasi.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_addrelasi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/view_mahasiswa.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_mahasiswa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/view_matakuliah.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_matakuliah.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/view_relasi.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_relasi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/view_updatemahasiswa.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_updatemahasiswa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/view_updatematakuliah.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_updatematakuliah.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/view_updaterelasi.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_updaterelasi.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +158,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1789880309987</updated>
-      <workItem from="1789880311173" duration="17300000" />
+      <workItem from="1789880311173" duration="17953000" />
     </task>
     <servers />
   </component>

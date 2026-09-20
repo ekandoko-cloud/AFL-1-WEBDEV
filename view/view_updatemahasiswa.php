@@ -1,5 +1,5 @@
 <?php
-include("controller_mahasiswa.php");
+include("../controller/controller_mahasiswa.php");
 $editID = $_GET['editID'];
 $allmahasiswas = getAllMahasiswas();
 $mhs = $allmahasiswas[$editID];

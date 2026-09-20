@@ -1,7 +1,7 @@
 <?php
-include_once("controller_mahasiswa.php");
-include_once("controller_matakuliah.php");
-include_once("controller_relasi.php");
+include_once("../controller/controller_mahasiswa.php");
+include_once("../controller/controller_matakuliah.php");
+include_once("../controller/controller_relasi.php");
 
 $editID = $_GET['editID'];
 $allmahasiswas = getAllMahasiswas();

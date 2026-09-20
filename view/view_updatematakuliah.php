@@ -1,5 +1,5 @@
 <?php
-include("controller_matakuliah.php");
+include("../controller/controller_matakuliah.php");
 $editID = $_GET['editID'];
 $allmatakuliah = getAllMataKuliahs();
 $mk = $allmatakuliah[$editID];

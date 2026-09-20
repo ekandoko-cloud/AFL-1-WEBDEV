@@ -1,4 +1,4 @@
-<?php include("controller_matakuliah.php"); ?>
+<?php include("../controller/controller_matakuliah.php"); ?>
 <!DOCTYPE html>
 <html lang="id">
 <head>

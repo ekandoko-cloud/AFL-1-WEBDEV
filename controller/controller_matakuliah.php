@@ -1,6 +1,6 @@
 <?php
 
-include_once("model.php");
+include_once("../model/model.php");
 if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
