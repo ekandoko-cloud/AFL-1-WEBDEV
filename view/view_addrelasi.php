@@ -23,7 +23,7 @@ $allmatakuliah = getAllMataKuliahs();
                     Tambahkan data <strong>Mahasiswa</strong> dan <strong>Mata Kuliah</strong> terlebih dahulu sebelum membuat relasi.
                 </div>
             <?php else: ?>
-                <form action="controller_relasi.php" method="POST">
+                <form action="../controller/controller_relasi.php" method="POST">
                     <div class="mb-3">
                         <label class="form-label">Mahasiswa</label>
                         <select name="inputMahasiswa" class="form-select" required>

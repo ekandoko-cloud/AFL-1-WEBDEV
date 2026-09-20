@@ -1,9 +1,13 @@
-<?php include("controller_mahasiswa.php"); ?>
+<?php
+include_once("controller_mahasiswa.php");
+include_once("controller_matakuliah.php");
+include_once("controller_relasi.php");
+?>
 <!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <title>Data Mahasiswa</title>
+    <title>Mahasiswa Ambil Mata Kuliah</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
@@ -23,14 +27,13 @@
 
     <div class="card text-center">
         <div class="card-body">
-            <h3>Daftar Mahasiswa</h3>
+            <h3>Mahasiswa Ambil Mata Kuliah</h3>
             <table class="table table-bordered">
                 <thead>
                 <tr>
                     <th scope="col">No</th>
-                    <th scope="col">Nama</th>
-                    <th scope="col">NIM</th>
-                    <th scope="col">Jurusan</th>
+                    <th scope="col">Mahasiswa</th>
+                    <th scope="col">Mata Kuliah</th>
                     <th scope="col">Action</th>
                 </tr>
                 </thead>
@@ -38,19 +41,25 @@
                 <?php
                 $counter = 0;
                 $allmahasiswas = getAllMahasiswas();
-                foreach ($allmahasiswas as $index => $mhs) {
+                $allmatakuliah = getAllMataKuliahs();
+                $allrelasi = getAllRelasi();
+                foreach ($allrelasi as $index => $relasi) {
                     $counter++;
+                    $mhsIndex = $relasi['mahasiswaIndex'];
+                    $mkIndex = $relasi['matakuliahIndex'];
+
+                    $namaMhs = isset($allmahasiswas[$mhsIndex]) ? $allmahasiswas[$mhsIndex]->nama : "(data sudah dihapus)";
+                    $namaMk = isset($allmatakuliah[$mkIndex]) ? $allmatakuliah[$mkIndex]->nama_mk : "(data sudah dihapus)";
                     ?>
                     <tr>
-                        <th scope="row"><?=$counter?></th>
-                        <td><?=htmlspecialchars($mhs->nama)?></td>
-                        <td><?=htmlspecialchars($mhs->nim)?></td>
-                        <td><?=htmlspecialchars($mhs->jurusan)?></td>
+                        <th scope="row"><?= $counter ?></th>
+                        <td><?= htmlspecialchars($namaMhs) ?></td>
+                        <td><?= htmlspecialchars($namaMk) ?></td>
                         <td>
-                            <a href="view_updatemahasiswa.php?editID=<?=$index?>">
+                            <a href="view_updaterelasi.php?editID=<?= $index ?>">
                                 <button class="btn btn-warning">Update</button>
                             </a>
-                            <a href="controller_mahasiswa.php?deleteID=<?=$index?>">
+                            <a href="../controller/controller_relasi.php?deleteRelasiID=<?= $index ?>">
                                 <button class="btn btn-danger">Delete</button>
                             </a>
                         </td>
@@ -60,7 +69,7 @@
                 ?>
                 </tbody>
             </table>
-            <a href="view_addmahasiswa.php" class="btn btn-primary">Tambah Mahasiswa</a>
+            <a href="view_addrelasi.php" class="btn btn-primary">Tambah Relasi</a>
         </div>
     </div>
 </div>

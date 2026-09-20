@@ -12,7 +12,7 @@
         <div class="card">
             <div class="card-body">
                 <h3>Tambah Mata Kuliah</h3>
-                <form action="controller_matakuliah.php" method="POST">
+                <form action="../controller/controller_matakuliah.php" method="POST">
                     <div class="mb-3">
                         <label class="form-label">Nama Mata Kuliah</label>
                         <input type="text" name="inputNamaMK" class="form-control" placeholder="Masukkan Nama Mata Kuliah" required>

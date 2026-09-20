@@ -17,7 +17,7 @@ $mk = $allmatakuliah[$editID];
         <div class="card">
             <div class="card-body">
                 <h3>Edit Mata Kuliah</h3>
-                <form action="controller_matakuliah.php" method="POST">
+                <form action="../controller/controller_matakuliah.php" method="POST">
                     <input type="hidden" name="editID" value="<?=$editID?>">
                     <div class="mb-3">
                         <label class="form-label">Nama Mata Kuliah</label>

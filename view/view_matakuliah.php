@@ -50,7 +50,7 @@
                             <a href="view_updatematakuliah.php?editID=<?=$index?>">
                                 <button class="btn btn-warning">Update</button>
                             </a>
-                            <a href="controller_matakuliah.php?deleteID=<?=$index?>">
+                            <a href="../controller/controller_matakuliah.php?deleteID=<?=$index?>">
                                 <button class="btn btn-danger">Delete</button>
                             </a>
                         </td>
