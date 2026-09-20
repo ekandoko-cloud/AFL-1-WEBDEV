@@ -1,9 +1,9 @@
 <?php
-
 include_once("../model/model.php");
 if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
+include_once("controller_relasi.php");
 
 if (!isset($_SESSION['matakuliahlist'])) {
     $_SESSION['matakuliahlist'] = array();
@@ -17,7 +17,7 @@ function createMataKuliah(){
     array_push($_SESSION['matakuliahlist'], $mk);
 }
 
-function getAllMataKuliahs(){
+function getAllMataKuliah(){
     return $_SESSION['matakuliahlist'];
 }
 
@@ -31,24 +31,22 @@ function updateMataKuliah($index){
 
 function deleteMataKuliah($index){
     unset($_SESSION['matakuliahlist'][$index]);
+    deleteRelasiByMataKuliah($index);
 }
-
 
 if (isset($_POST['button_tambah_matakuliah'])) {
     createMataKuliah();
-    header("Location:view_matakuliah.php");
+    header("Location:../view/view_matakuliah.php");
 }
-
 
 if (isset($_POST['button_update_matakuliah'])) {
     updateMataKuliah($_POST['editID']);
-    header("Location:view_matakuliah.php");
+    header("Location:../view/view_matakuliah.php");
 }
-
 
 if (isset($_GET['deleteID'])) {
     deleteMataKuliah($_GET['deleteID']);
-    header("Location:view_matakuliah.php");
+    header("Location:../view/view_matakuliah.php");
 }
 
 ?>

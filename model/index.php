@@ -1,4 +1,4 @@
 <?php
-header("Location:view_mahasiswa.php");
+header("Location:../view/view_mahasiswa.php");
 exit;
 ?>

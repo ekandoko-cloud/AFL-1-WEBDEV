@@ -1,7 +1,7 @@
 <?php
-include("../controller/controller_matakuliah.php");
+include_once("../controller/controller_matakuliah.php");
 $editID = $_GET['editID'];
-$allmatakuliah = getAllMataKuliahs();
+$allmatakuliah = getAllMataKuliah();
 $mk = $allmatakuliah[$editID];
 ?>
 <!DOCTYPE html>

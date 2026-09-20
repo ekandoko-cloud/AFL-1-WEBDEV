@@ -3,6 +3,7 @@ include_once("../model/model.php");
 if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
+include_once("controller_relasi.php");
 
 if (!isset($_SESSION['mahasiswalist'])) {
     $_SESSION['mahasiswalist'] = array();
@@ -30,21 +31,22 @@ function updateMahasiswa($index){
 
 function deleteMahasiswa($index){
     unset($_SESSION['mahasiswalist'][$index]);
+    deleteRelasiByMahasiswa($index);
 }
 
 if (isset($_POST['button_tambah_mahasiswa'])) {
     createMahasiswa();
-    header("Location:view_mahasiswa.php");
+    header("Location:../view/view_mahasiswa.php");
 }
 
 if (isset($_POST['button_update_mahasiswa'])) {
     updateMahasiswa($_POST['editID']);
-    header("Location:view_mahasiswa.php");
+    header("Location:../view/view_mahasiswa.php");
 }
 
 if (isset($_GET['deleteID'])) {
     deleteMahasiswa($_GET['deleteID']);
-    header("Location:view_mahasiswa.php");
+    header("Location:../view/view_mahasiswa.php");
 }
 
 ?>

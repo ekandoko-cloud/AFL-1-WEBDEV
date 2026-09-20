@@ -5,7 +5,7 @@ include_once("../controller/controller_relasi.php");
 
 $editID = $_GET['editID'];
 $allmahasiswas = getAllMahasiswas();
-$allmatakuliah = getAllMataKuliahs();
+$allmatakuliah = getAllMataKuliah();
 $allrelasi = getAllRelasi();
 $relasi = $allrelasi[$editID];
 ?>

@@ -1,4 +1,4 @@
-<?php include("../controller/controller_matakuliah.php"); ?>
+<?php include_once("../controller/controller_matakuliah.php"); ?>
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -37,7 +37,7 @@
                 <tbody>
                 <?php
                 $counter = 0;
-                $allmatakuliah = getAllMataKuliahs();
+                $allmatakuliah = getAllMataKuliah();
                 foreach ($allmatakuliah as $index => $mk) {
                     $counter++;
                     ?>

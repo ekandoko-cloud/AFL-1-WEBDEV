@@ -3,13 +3,13 @@ include_once("../controller/controller_mahasiswa.php");
 include_once("../controller/controller_matakuliah.php");
 include_once("../controller/controller_relasi.php");
 $allmahasiswas = getAllMahasiswas();
-$allmatakuliah = getAllMataKuliahs();
+$allmatakuliah = getAllMataKuliah();
 ?>
 <!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <title>Tambah Relasi</title>
+    <title>Add Relasi</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
@@ -17,7 +17,7 @@ $allmatakuliah = getAllMataKuliahs();
     <h1>Mahasiswa & Mata Kuliah</h1>
     <div class="card">
         <div class="card-body">
-            <h3>Tambah Relasi (Mahasiswa Ambil Mata Kuliah)</h3>
+            <h3>Add Relasi Mahasiswa - Mata Kuliah</h3>
             <?php if (count($allmahasiswas) == 0 || count($allmatakuliah) == 0): ?>
                 <div class="alert alert-warning">
                     Tambahkan data <strong>Mahasiswa</strong> dan <strong>Mata Kuliah</strong> terlebih dahulu sebelum membuat relasi.

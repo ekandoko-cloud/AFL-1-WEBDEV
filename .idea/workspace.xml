@@ -5,16 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99d48cbc-63c4-4cc7-b879-85f5858a3832" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/controller_mahasiswa.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/controller_mahasiswa.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/controller_matakuliah.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/controller_matakuliah.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/controller_relasi.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/controller_relasi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/view_addmahasiswa.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_addmahasiswa.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/view_addmatakuliah.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_addmatakuliah.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/view_addrelasi.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_addrelasi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/view_mahasiswa.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_mahasiswa.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/view_matakuliah.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_matakuliah.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/view_relasi.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_relasi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/view_updatemahasiswa.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_updatemahasiswa.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/view_updatematakuliah.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_updatematakuliah.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/view_updaterelasi.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_updaterelasi.php" afterDir="false" />
     </list>
@@ -46,61 +46,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.572821549217558" />
-      <entry key="MS500" value="4.69512564533688" />
-      <entry key="S2" value="6.91957280915997" />
-      <entry key="S5" value="7.541792254663505" />
-      <entry key="S10" value="7.76629588002408" />
-      <entry key="S30" value="7.921050847070251" />
-      <entry key="S60" value="7.9603928222464" />
-      <entry key="M2" value="7.980163137303019" />
-      <entry key="M5" value="7.99205725482715" />
-      <entry key="M10" value="7.996135599575045" />
-      <entry key="M15" value="8.002518745024092" />
-      <entry key="M30" value="8.27001604401535" />
-      <entry key="H1" value="10.374042645505593" />
-      <entry key="H2" value="18.0264383064395" />
-      <entry key="H4" value="33.105596305612536" />
-      <entry key="D1" value="67.91148850055312" />
-      <entry key="W1" value="78.12154888617064" />
+      <entry key="MS100" value="8.546644079336038E-148" />
+      <entry key="MS500" value="3.857972464879335E-30" />
+      <entry key="S2" value="4.431898248561181E-8" />
+      <entry key="S5" value="0.001144553011401174" />
+      <entry key="S10" value="0.03383126681286618" />
+      <entry key="S30" value="0.3279820083391848" />
+      <entry key="S60" value="0.6641771229660562" />
+      <entry key="M2" value="1.1968053463024704" />
+      <entry key="M5" value="2.861209045135335" />
+      <entry key="M10" value="7.4540761712828685" />
+      <entry key="M15" value="11.842830423391481" />
+      <entry key="M30" value="20.296025645750888" />
+      <entry key="H1" value="28.480543256662465" />
+      <entry key="H2" value="39.242822758444014" />
+      <entry key="H4" value="56.09915843581116" />
+      <entry key="D1" value="95.08533962379818" />
+      <entry key="W1" value="106.82550861709834" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="5.885250025242207E-292" />
-      <entry key="S30" value="8.380211367184052E-98" />
-      <entry key="S60" value="2.8948594727868975E-49" />
-      <entry key="M2" value="5.380389830474087E-25" />
-      <entry key="M5" value="1.9603133487937442E-10" />
-      <entry key="M10" value="1.4001119058110113E-5" />
-      <entry key="M15" value="5.809095270810825E-4" />
-      <entry key="M30" value="0.024102064788749582" />
-      <entry key="H1" value="0.1552483970569409" />
-      <entry key="H2" value="0.39401573199168183" />
-      <entry key="H4" value="0.6277067245072985" />
-      <entry key="D1" value="0.9253218061202045" />
-      <entry key="W1" value="0.9889735697593652" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0001213952842618" />
+      <entry key="S2" value="1.1049670595163301" />
+      <entry key="S5" value="1.40919538460668" />
+      <entry key="S10" value="1.6944998849409842" />
+      <entry key="S30" value="2.246211732162113" />
+      <entry key="S60" value="2.548695813581253" />
+      <entry key="M2" value="2.7512143790083865" />
+      <entry key="M5" value="2.894222157563409" />
+      <entry key="M10" value="2.9460018713576286" />
+      <entry key="M15" value="2.9638158075417493" />
+      <entry key="M30" value="2.989912175232474" />
+      <entry key="H1" value="3.0812008353404594" />
+      <entry key="H2" value="3.2960108240205312" />
+      <entry key="H4" value="3.545972596053324" />
+      <entry key="D1" value="3.9043051484265905" />
+      <entry key="W1" value="3.9857378854285725" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.5336643466501354" />
-      <entry key="MS500" value="4.6738150202583295" />
-      <entry key="S2" value="6.911775086344386" />
-      <entry key="S5" value="7.538394059526902" />
-      <entry key="S10" value="7.764546307046343" />
-      <entry key="S30" value="7.9204560461118785" />
-      <entry key="S60" value="7.960093945249829" />
-      <entry key="M2" value="7.980013327753292" />
-      <entry key="M5" value="7.991997241897226" />
-      <entry key="M10" value="7.996119375077971" />
-      <entry key="M15" value="8.003074037514184" />
-      <entry key="M30" value="8.293988592758389" />
-      <entry key="H1" value="10.52888076376492" />
-      <entry key="H2" value="18.41989463771678" />
-      <entry key="H4" value="33.73281846385333" />
-      <entry key="D1" value="68.83667638225907" />
-      <entry key="W1" value="79.11050146537058" />
+      <entry key="MS100" value="1.0067046438391835E-5" />
+      <entry key="MS500" value="0.1001422825900464" />
+      <entry key="S2" value="0.6166008578148516" />
+      <entry key="S5" value="1.1098973466587883" />
+      <entry key="S10" value="1.5374480684397063" />
+      <entry key="S30" value="2.491173124758612" />
+      <entry key="S60" value="3.166654326021732" />
+      <entry key="M2" value="3.9233327320162297" />
+      <entry key="M5" value="5.7450648474239845" />
+      <entry key="M10" value="10.3947411327688" />
+      <entry key="M15" value="14.803025002511026" />
+      <entry key="M30" value="23.284038263025426" />
+      <entry key="H1" value="31.5605610700618" />
+      <entry key="H2" value="42.537929781675984" />
+      <entry key="H4" value="59.64446792517464" />
+      <entry key="D1" value="98.98947365822686" />
+      <entry key="W1" value="110.81121983504073" />
     </decayedShown>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
@@ -158,7 +158,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1789880309987</updated>
-      <workItem from="1789880311173" duration="17953000" />
+      <workItem from="1789880311173" duration="20265000" />
     </task>
     <servers />
   </component>
