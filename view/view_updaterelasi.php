@@ -18,7 +18,7 @@ $relasi = $allrelasi[$editID];
 </head>
 <body>
 <div class="container p-3">
-    <h1>Mahasiswa &amp; Mata Kuliah</h1>
+    <h1>Mahasiswa & Mata Kuliah</h1>
     <div class="card">
         <div class="card-body">
             <h3>Edit Relasi (Mahasiswa Ambil Mata Kuliah)</h3>
