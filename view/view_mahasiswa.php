@@ -42,15 +42,15 @@
                     $counter++;
                     ?>
                     <tr>
-                        <th scope="row"><?=$counter?></th>
-                        <td><?=htmlspecialchars($mhs->nama)?></td>
-                        <td><?=htmlspecialchars($mhs->nim)?></td>
-                        <td><?=htmlspecialchars($mhs->jurusan)?></td>
+                        <th scope="row"><?= $counter ?></th>
+                        <td><?= htmlspecialchars($mhs->nama) ?></td>
+                        <td><?= htmlspecialchars($mhs->nim) ?></td>
+                        <td><?= htmlspecialchars($mhs->jurusan) ?></td>
                         <td>
-                            <a href="view_updatemahasiswa.php?editID=<?=$index?>">
+                            <a href="view_updatemahasiswa.php?editID=<?= $index ?>">
                                 <button class="btn btn-warning">Update</button>
                             </a>
-                            <a href="../controller/controller_mahasiswa.php?deleteID=<?=$index?>">
+                            <a href="../controller/controller_mahasiswa.php?deleteID=<?= $index ?>">
                                 <button class="btn btn-danger">Delete</button>
                             </a>
                         </td>

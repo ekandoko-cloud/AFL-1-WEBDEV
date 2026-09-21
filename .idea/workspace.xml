@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99d48cbc-63c4-4cc7-b879-85f5858a3832" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/view/view_updaterelasi.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_updaterelasi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,9 +14,6 @@
   </component>
   <component name="ComposerSettings">
     <execution />
-  </component>
-  <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="18" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -35,61 +32,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.000000000000377" />
-      <entry key="MS500" value="1.0032756879003304" />
-      <entry key="S2" value="1.2550083835113595" />
-      <entry key="S5" value="1.8656323941639577" />
-      <entry key="S10" value="2.7263591818575863" />
-      <entry key="S30" value="4.353411240564757" />
-      <entry key="S60" value="5.475038292134069" />
-      <entry key="M2" value="7.280636787674264" />
-      <entry key="M5" value="10.713998329659507" />
-      <entry key="M10" value="15.44842172336225" />
-      <entry key="M15" value="19.903845488553184" />
-      <entry key="M30" value="29.19873314010972" />
-      <entry key="H1" value="38.62068218194543" />
-      <entry key="H2" value="50.29455939002072" />
-      <entry key="H4" value="67.72826809585736" />
-      <entry key="D1" value="107.70448991788055" />
-      <entry key="W1" value="119.76453974105328" />
+      <entry key="MS100" value="1.0000103244094662" />
+      <entry key="MS500" value="1.1601082300125065" />
+      <entry key="S2" value="2.767808851608785" />
+      <entry key="S5" value="5.221474221984362" />
+      <entry key="S10" value="7.489438663782966" />
+      <entry key="S30" value="13.4193423611515" />
+      <entry key="S60" value="19.04996274415795" />
+      <entry key="M2" value="24.809553678499803" />
+      <entry key="M5" value="31.77571721073834" />
+      <entry key="M10" value="37.971829708472754" />
+      <entry key="M15" value="42.95777267127702" />
+      <entry key="M30" value="52.923674798875936" />
+      <entry key="H1" value="62.831314988167655" />
+      <entry key="H2" value="74.8068773267458" />
+      <entry key="H4" value="92.41548669173477" />
+      <entry key="D1" value="132.62606198770828" />
+      <entry key="W1" value="144.75220255380188" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="6.62962199017614E-154" />
-      <entry key="S2" value="5.074253869728114E-39" />
-      <entry key="S5" value="4.810042089754329E-16" />
-      <entry key="S10" value="2.1931813676827908E-8" />
-      <entry key="S30" value="0.0028324415219781024" />
-      <entry key="S60" value="0.0627202458900167" />
-      <entry key="M2" value="0.4007308316289139" />
-      <entry key="M5" value="1.507511804593901" />
-      <entry key="M10" value="2.4349305543653217" />
-      <entry key="M15" value="2.8679551369113163" />
-      <entry key="M30" value="3.390806626498568" />
-      <entry key="H1" value="3.7607186363081833" />
-      <entry key="H2" value="4.122594187304238" />
-      <entry key="H4" value="4.452602256109818" />
-      <entry key="D1" value="4.887221307940003" />
-      <entry key="W1" value="4.983248622422639" />
+      <entry key="MS500" value="3.910636013909508E-203" />
+      <entry key="S2" value="2.5007014669367747E-51" />
+      <entry key="S5" value="5.744136339865118E-21" />
+      <entry key="S10" value="7.579009982818748E-11" />
+      <entry key="S30" value="4.2822655599981344E-4" />
+      <entry key="S60" value="0.02438731984675113" />
+      <entry key="M2" value="0.24987966707077058" />
+      <entry key="M5" value="1.2479925303483308" />
+      <entry key="M10" value="2.2154513192113328" />
+      <entry key="M15" value="2.6929158027917524" />
+      <entry key="M30" value="3.285702467718778" />
+      <entry key="H1" value="3.7019747106312177" />
+      <entry key="H2" value="4.090269174980041" />
+      <entry key="H4" value="4.435111610019786" />
+      <entry key="D1" value="4.884016406623347" />
+      <entry key="W1" value="4.982781652122316" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.06079093421333091" />
-      <entry key="MS500" value="0.5734638384050696" />
-      <entry key="S2" value="1.1025724325711481" />
-      <entry key="S5" value="1.7788871044580987" />
-      <entry key="S10" value="2.6561309694640833" />
-      <entry key="S30" value="4.3064676994857205" />
-      <entry key="S60" value="5.504475758732375" />
-      <entry key="M2" value="7.659347426230598" />
-      <entry key="M5" value="12.208116298158279" />
-      <entry key="M10" value="17.874853544786554" />
-      <entry key="M15" value="22.765560569085665" />
-      <entry key="M30" value="32.586029155212294" />
-      <entry key="H1" value="42.37933979712523" />
-      <entry key="H2" value="54.41579509809467" />
-      <entry key="H4" value="72.17997355284206" />
-      <entry key="D1" value="112.59149914054717" />
-      <entry key="W1" value="124.74775575973848" />
+      <entry key="MS100" value="0.8179111549131617" />
+      <entry key="MS500" value="1.1025928648774124" />
+      <entry key="S2" value="2.68077088031451" />
+      <entry key="S5" value="5.159061902889265" />
+      <entry key="S10" value="7.449848622074574" />
+      <entry key="S30" value="13.394667776308554" />
+      <entry key="S60" value="19.050711321274083" />
+      <entry key="M2" value="25.039511569261045" />
+      <entry key="M5" value="33.00986496616748" />
+      <entry key="M10" value="40.17811477922681" />
+      <entry key="M15" value="45.643860562611124" />
+      <entry key="M30" value="56.20548443885112" />
+      <entry key="H1" value="66.53101364776586" />
+      <entry key="H2" value="78.89567463099137" />
+      <entry key="H4" value="96.8496428953824" />
+      <entry key="D1" value="137.50985607802446" />
+      <entry key="W1" value="149.73495012342661" />
     </decayedShown>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
@@ -109,6 +106,7 @@
     &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
     &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
@@ -133,6 +131,105 @@
       <recent name="C:\xampp\htdocs\mvc_mahasiswa" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="mvc_mahasiswa" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="mvc_mahasiswa" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="mvc_mahasiswa" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.Celery" factoryName="Python.Celery.App">
+      <module name="mvc_mahasiswa" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.Celery" factoryName="Python.Celery.Task">
+      <module name="mvc_mahasiswa" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer">
+      <module name="mvc_mahasiswa" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="mvc_mahasiswa" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -147,7 +244,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1789880309987</updated>
-      <workItem from="1789880311173" duration="20711000" />
+      <workItem from="1789880311173" duration="21884000" />
+      <workItem from="1789954734414" duration="227000" />
+      <workItem from="1789955747651" duration="29000" />
+      <workItem from="1789989529975" duration="2490000" />
     </task>
     <servers />
   </component>
