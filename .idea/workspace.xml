@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99d48cbc-63c4-4cc7-b879-85f5858a3832" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/controller_mahasiswa.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/controller_mahasiswa.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/controller_matakuliah.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/controller_matakuliah.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/controller_relasi.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/controller_relasi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/view_addmahasiswa.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_addmahasiswa.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/view_addmatakuliah.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_addmatakuliah.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/view_addrelasi.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_addrelasi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/view_mahasiswa.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_mahasiswa.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/view_relasi.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_relasi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/view_updatemahasiswa.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_updatemahasiswa.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/view_updaterelasi.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_updaterelasi.php" afterDir="false" />
-    </list>
+    <list default="true" id="99d48cbc-63c4-4cc7-b879-85f5858a3832" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,61 +35,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000159778493" />
-      <entry key="MS500" value="1.0369267503410315" />
-      <entry key="S2" value="2.4105782792751027" />
-      <entry key="S5" value="5.242617050219437" />
-      <entry key="S10" value="9.85207102640185" />
-      <entry key="S30" value="22.173252827545735" />
-      <entry key="S60" value="29.02901230903891" />
-      <entry key="M2" value="33.66717039632236" />
-      <entry key="M5" value="38.45098650890254" />
-      <entry key="M10" value="42.95286001493843" />
-      <entry key="M15" value="47.4885556197573" />
-      <entry key="M30" value="61.596063786594506" />
-      <entry key="H1" value="81.4711056662021" />
-      <entry key="H2" value="103.24797584461447" />
-      <entry key="H4" value="127.870625119799" />
-      <entry key="D1" value="178.21087551531343" />
-      <entry key="W1" value="193.21485599399688" />
+      <entry key="MS100" value="1.0010936317802963" />
+      <entry key="MS500" value="1.428684833902856" />
+      <entry key="S2" value="2.8252345656700073" />
+      <entry key="S5" value="3.8333368714094656" />
+      <entry key="S10" value="4.355452876281986" />
+      <entry key="S30" value="7.391882638453057" />
+      <entry key="S60" value="17.267680453570513" />
+      <entry key="M2" value="32.33412009241779" />
+      <entry key="M5" value="50.48054484413521" />
+      <entry key="M10" value="61.33340221437618" />
+      <entry key="M15" value="68.19184747909902" />
+      <entry key="M30" value="84.71143066148726" />
+      <entry key="H1" value="106.03402285126808" />
+      <entry key="H2" value="128.76221267546123" />
+      <entry key="H4" value="153.9781168400896" />
+      <entry key="D1" value="205.01139810879837" />
+      <entry key="W1" value="220.1842020419784" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
-      <entry key="S5" value="9.507619789948953E-213" />
-      <entry key="S10" value="9.750704885759673E-107" />
-      <entry key="S30" value="4.6574489911405556E-36" />
-      <entry key="S60" value="2.5433218932282175E-18" />
-      <entry key="M2" value="2.551817117886465E-9" />
-      <entry key="M5" value="7.940711855397918E-4" />
-      <entry key="M10" value="0.05588380095661517" />
-      <entry key="M15" value="0.2316177963034701" />
-      <entry key="M30" value="0.9636133522046906" />
-      <entry key="H1" value="2.004798530034576" />
-      <entry key="H2" value="3.010027982962614" />
-      <entry key="H4" value="3.804642678319785" />
-      <entry key="D1" value="4.760786084354997" />
-      <entry key="W1" value="4.96462402107235" />
+      <entry key="S5" value="2.9334143631918103E-220" />
+      <entry key="S10" value="1.7127217637811464E-110" />
+      <entry key="S30" value="2.6083450470153695E-37" />
+      <entry key="S60" value="6.018798403332792E-19" />
+      <entry key="M2" value="1.241377244340983E-9" />
+      <entry key="M5" value="5.952249545562682E-4" />
+      <entry key="M10" value="0.048383444564999406" />
+      <entry key="M15" value="0.21040004243995702" />
+      <entry key="M30" value="0.9184166702439549" />
+      <entry key="H1" value="1.9572180382026874" />
+      <entry key="H2" value="2.9740945441815163" />
+      <entry key="H4" value="3.7818647558537872" />
+      <entry key="D1" value="4.756023818511039" />
+      <entry key="W1" value="4.963914264290023" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.009226505256151435" />
-      <entry key="MS500" value="0.41062285168866397" />
-      <entry key="S2" value="2.104002450554462" />
-      <entry key="S5" value="5.077712517511918" />
-      <entry key="S10" value="9.753443214827769" />
-      <entry key="S30" value="22.129341991832042" />
-      <entry key="S60" value="29.004150331065727" />
-      <entry key="M2" value="33.65379230544482" />
-      <entry key="M5" value="38.44614725914054" />
-      <entry key="M10" value="43.00564492626612" />
-      <entry key="M15" value="47.717660400463316" />
-      <entry key="M30" value="62.5575649980621" />
-      <entry key="H1" value="83.474184324036" />
-      <entry key="H2" value="106.25667650613319" />
-      <entry key="H4" value="131.67432598468298" />
-      <entry key="D1" value="182.9714245032646" />
-      <entry key="W1" value="198.1794431435227" />
+      <entry key="MS100" value="0.9603153880583676" />
+      <entry key="MS500" value="1.4171437316113862" />
+      <entry key="S2" value="2.816036588356942" />
+      <entry key="S5" value="3.8267513613336908" />
+      <entry key="S10" value="4.351316739531671" />
+      <entry key="S30" value="7.387293175843225" />
+      <entry key="S60" value="17.259885364577837" />
+      <entry key="M2" value="32.32609802739063" />
+      <entry key="M5" value="50.47608105571219" />
+      <entry key="M10" value="61.378633989833965" />
+      <entry key="M15" value="68.39963994002018" />
+      <entry key="M30" value="85.62766541906218" />
+      <entry key="H1" value="107.98947574631175" />
+      <entry key="H2" value="131.73495227417104" />
+      <entry key="H4" value="157.75902357914325" />
+      <entry key="D1" value="209.7671814128" />
+      <entry key="W1" value="225.14807891744346" />
     </decayedShown>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
@@ -129,31 +117,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;copilot.chat.legacySessionMetadata.migrated&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/mvc_mahasiswa&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "copilot.chat.legacySessionMetadata.migrated": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/xampp/htdocs/mvc_mahasiswa",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\mvc_mahasiswa\view" />
@@ -280,7 +268,7 @@
       <workItem from="1789955747651" duration="29000" />
       <workItem from="1789989529975" duration="6178000" />
       <workItem from="1790041418092" duration="1241000" />
-      <workItem from="1790079276859" duration="2692000" />
+      <workItem from="1790079276859" duration="2975000" />
     </task>
     <servers />
   </component>
