@@ -40,7 +40,7 @@ include_once("../controller/controller_relasi.php");
                 <tbody>
                 <?php
                 $counter = 0;
-                $allmahasiswas = getAllMahasiswas();
+                $allmahasiswa = getAllMahasiswa();
                 $allmatakuliah = getAllMataKuliah();
                 $allrelasi = getAllRelasi();
                 foreach ($allrelasi as $index => $relasi) {
@@ -48,7 +48,7 @@ include_once("../controller/controller_relasi.php");
                     $mhsIndex = $relasi['mahasiswaIndex'];
                     $mkIndex = $relasi['matakuliahIndex'];
 
-                    $namaMhs = isset($allmahasiswas[$mhsIndex]) ? $allmahasiswas[$mhsIndex]->nama : "(data sudah dihapus)";
+                    $namaMhs = isset($allmahasiswa[$mhsIndex]) ? $allmahasiswa[$mhsIndex]->nama : "(data sudah dihapus)";
                     $namaMk = isset($allmatakuliah[$mkIndex]) ? $allmatakuliah[$mkIndex]->nama_mk : "(data sudah dihapus)";
                     ?>
                     <tr>

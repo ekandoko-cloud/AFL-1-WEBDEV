@@ -3,7 +3,6 @@ include_once("../model/model.php");
 if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
-include_once("controller_relasi.php");
 
 if (!isset($_SESSION['mahasiswalist'])) {
     $_SESSION['mahasiswalist'] = array();
@@ -17,7 +16,7 @@ function createMahasiswa(){
     array_push($_SESSION['mahasiswalist'], $mhs);
 }
 
-function getAllMahasiswas(){
+function getAllMahasiswa(){
     return $_SESSION['mahasiswalist'];
 }
 
@@ -31,7 +30,6 @@ function updateMahasiswa($index){
 
 function deleteMahasiswa($index){
     unset($_SESSION['mahasiswalist'][$index]);
-    deleteRelasiByMahasiswa($index);
 }
 
 if (isset($_POST['button_tambah_mahasiswa'])) {

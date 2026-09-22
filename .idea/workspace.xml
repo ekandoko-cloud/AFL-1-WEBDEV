@@ -6,6 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="99d48cbc-63c4-4cc7-b879-85f5858a3832" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/controller_mahasiswa.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/controller_mahasiswa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/controller_matakuliah.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/controller_matakuliah.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/controller_relasi.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/controller_relasi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/view_addmahasiswa.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_addmahasiswa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/view_addmatakuliah.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_addmatakuliah.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/view_addrelasi.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_addrelasi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/view_mahasiswa.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_mahasiswa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/view_relasi.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_relasi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/view_updatemahasiswa.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_updatemahasiswa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/view_updaterelasi.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_updaterelasi.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +24,11 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_C:/xampp/htdocs/mvc_mahasiswa" value="3JdbgUi57ykbFX230mmduivkgBn" />
+    </persistenceIdMap>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -32,61 +47,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000103244094662" />
-      <entry key="MS500" value="1.1601082300125065" />
-      <entry key="S2" value="2.767808851608785" />
-      <entry key="S5" value="5.221474221984362" />
-      <entry key="S10" value="7.489438663782966" />
-      <entry key="S30" value="13.4193423611515" />
-      <entry key="S60" value="19.04996274415795" />
-      <entry key="M2" value="24.809553678499803" />
-      <entry key="M5" value="31.77571721073834" />
-      <entry key="M10" value="37.971829708472754" />
-      <entry key="M15" value="42.95777267127702" />
-      <entry key="M30" value="52.923674798875936" />
-      <entry key="H1" value="62.831314988167655" />
-      <entry key="H2" value="74.8068773267458" />
-      <entry key="H4" value="92.41548669173477" />
-      <entry key="D1" value="132.62606198770828" />
-      <entry key="W1" value="144.75220255380188" />
+      <entry key="MS100" value="1.0000000159778493" />
+      <entry key="MS500" value="1.0369267503410315" />
+      <entry key="S2" value="2.4105782792751027" />
+      <entry key="S5" value="5.242617050219437" />
+      <entry key="S10" value="9.85207102640185" />
+      <entry key="S30" value="22.173252827545735" />
+      <entry key="S60" value="29.02901230903891" />
+      <entry key="M2" value="33.66717039632236" />
+      <entry key="M5" value="38.45098650890254" />
+      <entry key="M10" value="42.95286001493843" />
+      <entry key="M15" value="47.4885556197573" />
+      <entry key="M30" value="61.596063786594506" />
+      <entry key="H1" value="81.4711056662021" />
+      <entry key="H2" value="103.24797584461447" />
+      <entry key="H4" value="127.870625119799" />
+      <entry key="D1" value="178.21087551531343" />
+      <entry key="W1" value="193.21485599399688" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="3.910636013909508E-203" />
-      <entry key="S2" value="2.5007014669367747E-51" />
-      <entry key="S5" value="5.744136339865118E-21" />
-      <entry key="S10" value="7.579009982818748E-11" />
-      <entry key="S30" value="4.2822655599981344E-4" />
-      <entry key="S60" value="0.02438731984675113" />
-      <entry key="M2" value="0.24987966707077058" />
-      <entry key="M5" value="1.2479925303483308" />
-      <entry key="M10" value="2.2154513192113328" />
-      <entry key="M15" value="2.6929158027917524" />
-      <entry key="M30" value="3.285702467718778" />
-      <entry key="H1" value="3.7019747106312177" />
-      <entry key="H2" value="4.090269174980041" />
-      <entry key="H4" value="4.435111610019786" />
-      <entry key="D1" value="4.884016406623347" />
-      <entry key="W1" value="4.982781652122316" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="9.507619789948953E-213" />
+      <entry key="S10" value="9.750704885759673E-107" />
+      <entry key="S30" value="4.6574489911405556E-36" />
+      <entry key="S60" value="2.5433218932282175E-18" />
+      <entry key="M2" value="2.551817117886465E-9" />
+      <entry key="M5" value="7.940711855397918E-4" />
+      <entry key="M10" value="0.05588380095661517" />
+      <entry key="M15" value="0.2316177963034701" />
+      <entry key="M30" value="0.9636133522046906" />
+      <entry key="H1" value="2.004798530034576" />
+      <entry key="H2" value="3.010027982962614" />
+      <entry key="H4" value="3.804642678319785" />
+      <entry key="D1" value="4.760786084354997" />
+      <entry key="W1" value="4.96462402107235" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.8179111549131617" />
-      <entry key="MS500" value="1.1025928648774124" />
-      <entry key="S2" value="2.68077088031451" />
-      <entry key="S5" value="5.159061902889265" />
-      <entry key="S10" value="7.449848622074574" />
-      <entry key="S30" value="13.394667776308554" />
-      <entry key="S60" value="19.050711321274083" />
-      <entry key="M2" value="25.039511569261045" />
-      <entry key="M5" value="33.00986496616748" />
-      <entry key="M10" value="40.17811477922681" />
-      <entry key="M15" value="45.643860562611124" />
-      <entry key="M30" value="56.20548443885112" />
-      <entry key="H1" value="66.53101364776586" />
-      <entry key="H2" value="78.89567463099137" />
-      <entry key="H4" value="96.8496428953824" />
-      <entry key="D1" value="137.50985607802446" />
-      <entry key="W1" value="149.73495012342661" />
+      <entry key="MS100" value="0.009226505256151435" />
+      <entry key="MS500" value="0.41062285168866397" />
+      <entry key="S2" value="2.104002450554462" />
+      <entry key="S5" value="5.077712517511918" />
+      <entry key="S10" value="9.753443214827769" />
+      <entry key="S30" value="22.129341991832042" />
+      <entry key="S60" value="29.004150331065727" />
+      <entry key="M2" value="33.65379230544482" />
+      <entry key="M5" value="38.44614725914054" />
+      <entry key="M10" value="43.00564492626612" />
+      <entry key="M15" value="47.717660400463316" />
+      <entry key="M30" value="62.5575649980621" />
+      <entry key="H1" value="83.474184324036" />
+      <entry key="H2" value="106.25667650613319" />
+      <entry key="H4" value="131.67432598468298" />
+      <entry key="D1" value="182.9714245032646" />
+      <entry key="W1" value="198.1794431435227" />
     </decayedShown>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
@@ -95,6 +110,21 @@
   &quot;fromUser&quot;: false
 }</component>
   <component name="ProjectId" id="3JZtEwCr7kQ5WH77laKQmBZdY8N" />
+  <component name="ProjectSessionTemplates">
+    <option name="inlineTemplate">
+      <template>
+        <option name="modeId" value="InlineAgent" />
+        <option name="model">
+          <model>
+            <option name="modelType" value="builtin_id" />
+            <option name="modelValue" value="auto" />
+          </model>
+        </option>
+        <option name="targetType" value="BACKGROUND" />
+        <option name="worktreeMode" value="WORKSPACE" />
+      </template>
+    </option>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -110,6 +140,7 @@
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
     &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;copilot.chat.legacySessionMetadata.migrated&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
@@ -247,7 +278,9 @@
       <workItem from="1789880311173" duration="21884000" />
       <workItem from="1789954734414" duration="227000" />
       <workItem from="1789955747651" duration="29000" />
-      <workItem from="1789989529975" duration="2490000" />
+      <workItem from="1789989529975" duration="6178000" />
+      <workItem from="1790041418092" duration="1241000" />
+      <workItem from="1790079276859" duration="2692000" />
     </task>
     <servers />
   </component>

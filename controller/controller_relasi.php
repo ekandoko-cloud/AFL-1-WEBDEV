@@ -32,22 +32,6 @@ function updateRelasi($index){
     $_SESSION['relasilist'][$index] = $relasi;
 }
 
-function deleteRelasiByMahasiswa($mahasiswaIndex){
-    foreach ($_SESSION['relasilist'] as $index => $relasi) {
-        if ($relasi['mahasiswaIndex'] == $mahasiswaIndex) {
-            unset($_SESSION['relasilist'][$index]);
-        }
-    }
-}
-
-function deleteRelasiByMataKuliah($matakuliahIndex){
-    foreach ($_SESSION['relasilist'] as $index => $relasi) {
-        if ($relasi['matakuliahIndex'] == $matakuliahIndex) {
-            unset($_SESSION['relasilist'][$index]);
-        }
-    }
-}
-
 if (isset($_POST['button_tambah_relasi'])) {
     createRelasi();
     header("Location:../view/view_relasi.php");

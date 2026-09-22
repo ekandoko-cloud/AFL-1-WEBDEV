@@ -1,8 +1,8 @@
 <?php
 include_once("../controller/controller_mahasiswa.php");
 $editID = $_GET['editID'];
-$allmahasiswas = getAllMahasiswas();
-$mhs = $allmahasiswas[$editID];
+$allmahasiswa = getAllMahasiswa();
+$mhs = $allmahasiswa[$editID];
 ?>
 <!DOCTYPE html>
 <html lang="id">

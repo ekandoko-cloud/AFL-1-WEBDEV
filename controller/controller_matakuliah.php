@@ -3,7 +3,6 @@ include_once("../model/model.php");
 if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
-include_once("controller_relasi.php");
 
 if (!isset($_SESSION['matakuliahlist'])) {
     $_SESSION['matakuliahlist'] = array();
@@ -31,7 +30,6 @@ function updateMataKuliah($index){
 
 function deleteMataKuliah($index){
     unset($_SESSION['matakuliahlist'][$index]);
-    deleteRelasiByMataKuliah($index);
 }
 
 if (isset($_POST['button_tambah_matakuliah'])) {

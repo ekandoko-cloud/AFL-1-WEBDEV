@@ -1,5 +1,4 @@
 <?php include_once("../controller/controller_matakuliah.php"); ?>
-<?php include_once("../controller/controller_relasi.php"); ?>
 <!DOCTYPE html>
 <html lang="id">
 <head>

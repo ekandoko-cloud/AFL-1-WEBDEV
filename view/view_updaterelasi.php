@@ -4,7 +4,7 @@ include_once("../controller/controller_matakuliah.php");
 include_once("../controller/controller_relasi.php");
 
 $editID = $_GET['editID'];
-$allmahasiswas = getAllMahasiswas();
+$allmahasiswa = getAllMahasiswa();
 $allmatakuliah = getAllMataKuliah();
 $allrelasi = getAllRelasi();
 $relasi = $allrelasi[$editID];
@@ -27,7 +27,7 @@ $relasi = $allrelasi[$editID];
                 <div class="mb-3">
                     <label class="form-label">Mahasiswa</label>
                     <select name="inputMahasiswa" class="form-select" required>
-                        <?php foreach ($allmahasiswas as $index => $mhs) { ?>
+                        <?php foreach ($allmahasiswa as $index => $mhs) { ?>
                             <option value="<?=$index?>" <?= ($index == $relasi['mahasiswaIndex']) ? "selected" : "" ?>>
                                 <?=htmlspecialchars($mhs->nama . " (" . $mhs->nim . ")")?>
                             </option>

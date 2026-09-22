@@ -37,8 +37,8 @@
                 <tbody>
                 <?php
                 $counter = 0;
-                $allmahasiswas = getAllMahasiswas();
-                foreach ($allmahasiswas as $index => $mhs) {
+                $allmahasiswa = getAllMahasiswa();
+                foreach ($allmahasiswa as $index => $mhs) {
                     $counter++;
                     ?>
                     <tr>
