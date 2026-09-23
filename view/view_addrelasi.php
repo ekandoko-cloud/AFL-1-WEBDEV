@@ -28,7 +28,7 @@ $allmatakuliah = getAllMataKuliah();
                         <label class="form-label">Mahasiswa</label>
                         <select name="inputMahasiswa" class="form-select" required>
                             <?php foreach ($allmahasiswa as $index => $mhs) { ?>
-                                <option value="<?=$index?>"><?=htmlspecialchars($mhs->nama . " (" . $mhs->nim . ")")?></option>
+                                <option value="<?=$index?>"><?=htmlspecialchars($mhs->getNama() . " (" . $mhs->getNim() . ")")?></option>
                             <?php } ?>
                         </select>
                     </div>
@@ -36,7 +36,7 @@ $allmatakuliah = getAllMataKuliah();
                         <label class="form-label">Mata Kuliah</label>
                         <select name="inputMatakuliah" class="form-select" required>
                             <?php foreach ($allmatakuliah as $index => $mk) { ?>
-                                <option value="<?=$index?>"><?=htmlspecialchars($mk->nama_mk . " (" . $mk->kode . ")")?></option>
+                                <option value="<?=$index?>"><?=htmlspecialchars($mk->getNamaMk() . " (" . $mk->getKode() . ")")?></option>
                             <?php } ?>
                         </select>
                     </div>

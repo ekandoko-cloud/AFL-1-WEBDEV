@@ -29,7 +29,7 @@ $relasi = $allrelasi[$editID];
                     <select name="inputMahasiswa" class="form-select" required>
                         <?php foreach ($allmahasiswa as $index => $mhs) { ?>
                             <option value="<?=$index?>" <?= ($index == $relasi['mahasiswaIndex']) ? "selected" : "" ?>>
-                                <?=htmlspecialchars($mhs->nama . " (" . $mhs->nim . ")")?>
+                                <?=htmlspecialchars($mhs->getNama() . " (" . $mhs->getNim() . ")")?>
                             </option>
                         <?php } ?>
                     </select>
@@ -39,7 +39,7 @@ $relasi = $allrelasi[$editID];
                     <select name="inputMatakuliah" class="form-select" required>
                         <?php foreach ($allmatakuliah as $index => $mk) { ?>
                             <option value="<?=$index?>" <?= ($index == $relasi['matakuliahIndex']) ? "selected" : "" ?>>
-                                <?=htmlspecialchars($mk->nama_mk . " (" . $mk->kode . ")")?>
+                                <?=htmlspecialchars($mk->getNamaMk() . " (" . $mk->getKode() . ")")?>
                             </option>
                         <?php } ?>
                     </select>

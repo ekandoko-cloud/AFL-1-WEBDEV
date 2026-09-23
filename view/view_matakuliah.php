@@ -43,9 +43,9 @@
                     ?>
                     <tr>
                         <th scope="row"><?= $counter ?></th>
-                        <td><?= htmlspecialchars($mk->nama_mk) ?></td>
-                        <td><?= htmlspecialchars($mk->kode) ?></td>
-                        <td><?= htmlspecialchars($mk->sks) ?></td>
+                        <td><?= htmlspecialchars($mk->getNamaMk()) ?></td>
+                        <td><?= htmlspecialchars($mk->getKode()) ?></td>
+                        <td><?= htmlspecialchars($mk->getSks()) ?></td>
                         <td>
                             <a href="view_updatematakuliah.php?editID=<?= $index ?>">
                                 <button class="btn btn-warning">Update</button>

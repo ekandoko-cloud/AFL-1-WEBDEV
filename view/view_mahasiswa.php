@@ -43,9 +43,9 @@
                     ?>
                     <tr>
                         <th scope="row"><?= $counter ?></th>
-                        <td><?= htmlspecialchars($mhs->nama) ?></td>
-                        <td><?= htmlspecialchars($mhs->nim) ?></td>
-                        <td><?= htmlspecialchars($mhs->jurusan) ?></td>
+                        <td><?= htmlspecialchars($mhs->getNama()) ?></td>
+                        <td><?= htmlspecialchars($mhs->getNim()) ?></td>
+                        <td><?= htmlspecialchars($mhs->getJurusan()) ?></td>
                         <td>
                             <a href="view_updatemahasiswa.php?editID=<?= $index ?>">
                                 <button class="btn btn-warning">Update</button>

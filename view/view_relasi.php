@@ -48,8 +48,8 @@ include_once("../controller/controller_relasi.php");
                     $mhsIndex = $relasi['mahasiswaIndex'];
                     $mkIndex = $relasi['matakuliahIndex'];
 
-                    $namaMhs = isset($allmahasiswa[$mhsIndex]) ? $allmahasiswa[$mhsIndex]->nama : "(data sudah dihapus)";
-                    $namaMk = isset($allmatakuliah[$mkIndex]) ? $allmatakuliah[$mkIndex]->nama_mk : "(data sudah dihapus)";
+                    $namaMhs = isset($allmahasiswa[$mhsIndex]) ? $allmahasiswa[$mhsIndex]->getNama() : "(data sudah dihapus)";
+                    $namaMk = isset($allmatakuliah[$mkIndex]) ? $allmatakuliah[$mkIndex]->getNamaMk() : "(data sudah dihapus)";
                     ?>
                     <tr>
                         <th scope="row"><?= $counter ?></th>

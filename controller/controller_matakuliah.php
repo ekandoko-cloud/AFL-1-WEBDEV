@@ -9,10 +9,7 @@ if (!isset($_SESSION['matakuliahlist'])) {
 }
 
 function createMataKuliah(){
-    $mk = new model_matakuliah();
-    $mk->nama_mk = $_POST['inputNamaMK'];
-    $mk->kode    = $_POST['inputKode'];
-    $mk->sks     = $_POST['inputSks'];
+    $mk = new model_matakuliah($_POST['inputNamaMK'], $_POST['inputKode'], $_POST['inputSks']);
     array_push($_SESSION['matakuliahlist'], $mk);
 }
 
@@ -22,9 +19,9 @@ function getAllMataKuliah(){
 
 function updateMataKuliah($index){
     $mk = $_SESSION['matakuliahlist'][$index];
-    $mk->nama_mk = $_POST['inputNamaMK'];
-    $mk->kode    = $_POST['inputKode'];
-    $mk->sks     = $_POST['inputSks'];
+    $mk->setNamaMk($_POST['inputNamaMK']);
+    $mk->setKode($_POST['inputKode']);
+    $mk->setSks($_POST['inputSks']);
     $_SESSION['matakuliahlist'][$index] = $mk;
 }
 

@@ -21,15 +21,15 @@ $mhs = $allmahasiswa[$editID];
                     <input type="hidden" name="editID" value="<?=$editID?>">
                     <div class="mb-3">
                         <label class="form-label">Nama</label>
-                        <input type="text" name="inputNama" class="form-control" value="<?=htmlspecialchars($mhs->nama)?>" required>
+                        <input type="text" name="inputNama" class="form-control" value="<?=htmlspecialchars($mhs->getNama())?>" required>
                     </div>
                     <div class="mb-3">
                         <label class="form-label">NIM</label>
-                        <input type="text" name="inputNim" class="form-control" value="<?=htmlspecialchars($mhs->nim)?>" required>
+                        <input type="text" name="inputNim" class="form-control" value="<?=htmlspecialchars($mhs->getNim())?>" required>
                     </div>
                     <div class="mb-3">
                         <label class="form-label">Jurusan</label>
-                        <input type="text" name="inputJurusan" class="form-control" value="<?=htmlspecialchars($mhs->jurusan)?>" required>
+                        <input type="text" name="inputJurusan" class="form-control" value="<?=htmlspecialchars($mhs->getJurusan())?>" required>
                     </div>
                     <button type="submit" name="button_update_mahasiswa" class="btn btn-primary">Update</button>
                     <a href="view_mahasiswa.php" class="btn btn-secondary">Batal</a>

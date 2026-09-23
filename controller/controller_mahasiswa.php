@@ -9,10 +9,7 @@ if (!isset($_SESSION['mahasiswalist'])) {
 }
 
 function createMahasiswa(){
-    $mhs = new model_mahasiswa();
-    $mhs->nama    = $_POST['inputNama'];
-    $mhs->nim     = $_POST['inputNim'];
-    $mhs->jurusan = $_POST['inputJurusan'];
+    $mhs = new model_mahasiswa($_POST['inputNama'], $_POST['inputNim'], $_POST['inputJurusan']);
     array_push($_SESSION['mahasiswalist'], $mhs);
 }
 
@@ -22,9 +19,9 @@ function getAllMahasiswa(){
 
 function updateMahasiswa($index){
     $mhs = $_SESSION['mahasiswalist'][$index];
-    $mhs->nama    = $_POST['inputNama'];
-    $mhs->nim     = $_POST['inputNim'];
-    $mhs->jurusan = $_POST['inputJurusan'];
+    $mhs->setNama($_POST['inputNama']);
+    $mhs->setNim($_POST['inputNim']);
+    $mhs->setJurusan($_POST['inputJurusan']);
     $_SESSION['mahasiswalist'][$index] = $mhs;
 }
 
